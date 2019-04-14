@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 72px;
+    
+}
+#compra{
+    font-color: green;
+}
+#venta{
+    font-color: red;
+}
