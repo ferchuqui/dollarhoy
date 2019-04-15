@@ -1,12 +1,30 @@
 body{
     margin: 0;
     padding: 0;
-    font-size: 72px;
-    
+    background:#C4E538;
+    /* font-size: 72px; */
+
 }
-#compra{
-    font-color: green;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
 }
-#venta{
-    font-color: red;
+.currencies{
+    display: flex;
+    width: 70%;
+    height: 100px;
+}
+.currency-price{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.currency-price h2{
+    text-align: center;
+    font-size: 40px;
 }
